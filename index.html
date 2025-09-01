@@ -3,59 +3,124 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>NGO Past Work Showcase</title>
-  <!-- Tailwind CSS v4 CDN -->
-  <script src="https://cdn.tailwindcss.com/4.0.0"></script>
+  <title>MERCI Educational & Welfare Foundation</title>
+  <!-- Tailwind v4 CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body class="bg-gray-50 text-gray-800 font-sans">
 
-  <!-- Header / Objective Section -->
-  <section class="bg-white shadow-md py-10 px-6 md:px-16 text-center">
-    <h1 class="text-3xl md:text-4xl font-bold text-blue-600 mb-4">Our Mission & Journey</h1>
-    <p class="text-lg max-w-3xl mx-auto text-gray-600">
-      Our NGO has been working tirelessly to uplift communities, empower individuals, and
-      bring sustainable change. Here’s a glimpse of our work through the years.
-    </p>
-  </section>
-
-  <!-- Timeline / Year Wise Work -->
-  <section class="max-w-5xl mx-auto py-12 px-6">
-    <h2 class="text-2xl font-semibold text-center text-gray-700 mb-10">Year-wise Work Showcase</h2>
-    
-    <div class="space-y-10">
-      <!-- Year 2024 -->
-      <div class="bg-white shadow rounded-2xl p-6 border-l-4 border-blue-500">
-        <h3 class="text-xl font-bold text-blue-600">2024</h3>
-        <p class="text-gray-600 mt-2">
-          Launched a women entrepreneurship program benefiting over 500 women with training and small grants.
-        </p>
-      </div>
-
-      <!-- Year 2023 -->
-      <div class="bg-white shadow rounded-2xl p-6 border-l-4 border-green-500">
-        <h3 class="text-xl font-bold text-green-600">2023</h3>
-        <p class="text-gray-600 mt-2">
-          Organized health camps in rural villages providing free check-ups and medicines to 2,000+ people.
-        </p>
-      </div>
-
-      <!-- Year 2022 -->
-      <div class="bg-white shadow rounded-2xl p-6 border-l-4 border-purple-500">
-        <h3 class="text-xl font-bold text-purple-600">2022</h3>
-        <p class="text-gray-600 mt-2">
-          Built 10 clean drinking water facilities across drought-prone regions to serve over 15,000 people.
-        </p>
-      </div>
-
-      <!-- Year 2021 -->
-      <div class="bg-white shadow rounded-2xl p-6 border-l-4 border-orange-500">
-        <h3 class="text-xl font-bold text-orange-600">2021</h3>
-        <p class="text-gray-600 mt-2">
-          Provided educational scholarships to 300 underprivileged students for higher studies.
-        </p>
+  <!-- Header Banner -->
+  <header class="bg-gradient-to-r from-blue-600 to-indigo-700 text-white shadow-lg">
+    <div class="max-w-6xl mx-auto px-6 py-8 flex flex-col items-center text-center">
+      <img src="logo.png" alt="MERCI Logo" class="h-16 mb-4">
+      <h1 class="text-3xl md:text-4xl font-bold">🌟 Welcome to MERCI Educational & Welfare Foundation</h1>
+      <p class="text-lg mt-2 italic">"Empowering Lives, Building Futures since 2014"</p>
+      <div class="mt-6 space-x-4">
+        <a href="#get-involved" class="bg-yellow-400 text-gray-900 px-5 py-2 rounded-xl font-semibold shadow hover:bg-yellow-300">Join Us</a>
+        <a href="#get-involved" class="bg-green-500 text-white px-5 py-2 rounded-xl font-semibold shadow hover:bg-green-400">Donate</a>
+        <a href="#get-involved" class="bg-pink-500 text-white px-5 py-2 rounded-xl font-semibold shadow hover:bg-pink-400">Volunteer</a>
       </div>
     </div>
-  </section>
+  </header>
 
+  <!-- Tabs / Sections -->
+  <main class="max-w-6xl mx-auto px-6 py-12 space-y-16">
+
+    <!-- Mission Section -->
+    <section id="mission" class="text-center">
+      <h2 class="text-2xl font-bold text-blue-600 mb-4">🎯 Our Mission</h2>
+      <p class="text-gray-600 max-w-3xl mx-auto">
+        To bring real and lasting change by empowering underprivileged communities through education, skills, and welfare support.
+      </p>
+    </section>
+
+    <!-- Vision Section -->
+    <section id="vision" class="text-center">
+      <h2 class="text-2xl font-bold text-indigo-600 mb-4">👁️ Our Vision</h2>
+      <p class="text-gray-600 max-w-3xl mx-auto">
+        A future where every individual, regardless of background, has the opportunity to learn, grow, and live with dignity.
+      </p>
+    </section>
+
+    <!-- Impact Section -->
+    <section id="impact">
+      <h2 class="text-2xl font-bold text-green-600 text-center mb-8">✨ Our Impact</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+        <!-- Card -->
+        <div class="bg-white shadow rounded-2xl p-6 text-center border-t-4 border-blue-500">
+          <div class="text-4xl">🎓</div>
+          <h3 class="text-lg font-bold mt-2">Scholarships</h3>
+          <p class="text-gray-600 text-sm">20+ scholarships awarded annually to deserving students.</p>
+        </div>
+
+        <div class="bg-white shadow rounded-2xl p-6 text-center border-t-4 border-yellow-500">
+          <div class="text-4xl">🏫</div>
+          <h3 class="text-lg font-bold mt-2">Skill Development</h3>
+          <p class="text-gray-600 text-sm">1300+ youth trained at ASDC Kanpur for employability.</p>
+        </div>
+
+        <div class="bg-white shadow rounded-2xl p-6 text-center border-t-4 border-green-500">
+          <div class="text-4xl">🍚</div>
+          <h3 class="text-lg font-bold mt-2">Family Support</h3>
+          <p class="text-gray-600 text-sm">1,000+ families receive ration aid every year.</p>
+        </div>
+
+        <div class="bg-white shadow rounded-2xl p-6 text-center border-t-4 border-indigo-500">
+          <div class="text-4xl">💼</div>
+          <h3 class="text-lg font-bold mt-2">Career Guidance</h3>
+          <p class="text-gray-600 text-sm">1,000+ students counseled, 100+ placed in jobs.</p>
+        </div>
+
+        <div class="bg-white shadow rounded-2xl p-6 text-center border-t-4 border-red-500">
+          <div class="text-4xl">🛒</div>
+          <h3 class="text-lg font-bold mt-2">Crisis Relief</h3>
+          <p class="text-gray-600 text-sm">5,000 families supported during the COVID-19 pandemic.</p>
+        </div>
+
+        <div class="bg-white shadow rounded-2xl p-6 text-center border-t-4 border-pink-500">
+          <div class="text-4xl">💍</div>
+          <h3 class="text-lg font-bold mt-2">Women Empowerment</h3>
+          <p class="text-gray-600 text-sm">20+ underprivileged girls supported with dignity for new beginnings.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why It Matters -->
+    <section class="bg-white shadow-md rounded-2xl p-8 text-center">
+      <h2 class="text-2xl font-bold text-orange-600 mb-4">🚀 Why It Matters</h2>
+      <p class="text-gray-600 max-w-4xl mx-auto">
+        Despite India’s growth, millions still face poverty, unemployment, and lack of quality education.
+        MERCI bridges these gaps with grassroots action, ensuring no one is left behind.
+      </p>
+    </section>
+
+    <!-- Get Involved Section -->
+    <section id="get-involved" class="text-center">
+      <h2 class="text-2xl font-bold text-purple-600 mb-6">🙌 Join the Change</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-4xl mx-auto">
+        <div class="bg-white shadow rounded-2xl p-6">
+          <h3 class="font-bold text-lg">💠 Students</h3>
+          <p class="text-gray-600 text-sm mt-2">Learn, grow, and build your career with MERCI programs.</p>
+        </div>
+        <div class="bg-white shadow rounded-2xl p-6">
+          <h3 class="font-bold text-lg">💠 Citizens</h3>
+          <p class="text-gray-600 text-sm mt-2">Volunteer your time and spread awareness.</p>
+        </div>
+        <div class="bg-white shadow rounded-2xl p-6">
+          <h3 class="font-bold text-lg">💠 Businesses</h3>
+          <p class="text-gray-600 text-sm mt-2">Partner with us for CSR initiatives and job creation.</p>
+        </div>
+      </div>
+      <div class="mt-8">
+        <a href="#" class="bg-blue-600 text-white px-6 py-3 rounded-xl font-semibold shadow hover:bg-blue-500">📢 Get Involved Today</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-gray-200 text-center py-8 mt-12">
+    <p class="mb-2">🌐 [Website URL] | 📞 [Phone Number] | 📧 [Email Address] | 📍 [Office Address]</p>
+    <p class="italic text-gray-400">“Together, let’s empower lives and build a brighter tomorrow.”</p>
+  </footer>
 </body>
 </html>
